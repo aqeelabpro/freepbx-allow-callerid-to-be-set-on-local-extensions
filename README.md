@@ -121,6 +121,10 @@ The allowable `datatypes` are:
 
 ---
 
+# Example
+same => n,Set(CALLERID(pres)=allowed) ; it ensures that callerid is present and shown to user when dialed
+
+
 #### `CID`
 
 An optional `CallerID` to parse instead of using the `CallerID` from the channel.  
